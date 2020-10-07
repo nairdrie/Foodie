@@ -1,0 +1,22 @@
+[{
+  "name": "Foodie",
+  "displayName": "Foodie",
+  "expo": {
+    "name": "Foodie",
+    "slug": "Foodie",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+},
+
+{
+  "expo": {
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": ["js", "jsx", "scss", "sass"]
+    }
+  }
+}
+]

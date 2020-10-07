@@ -1,0 +1,109 @@
+
+
+.login-page{
+    text-align: center;
+}
+
+.login-page .inner{
+    width:300px;
+    margin:auto;
+}
+
+.title{
+    font-weight:bold;
+    font-size:3em;
+}
+
+button{
+    height:46px;
+    width:275px;
+    border-radius:100px !important;
+    display:block;
+    border:0;
+    box-shadow:0;
+    line-height:46px;
+    overflow:hidden;
+    background:lightgray;
+    font-size:15px!important;
+    font-weight:bold !important;
+    margin:10px auto !important;
+
+}
+
+button#continue {
+    color:white;
+    background:#ff704d;
+    margin-bottom:30px !important;
+    cursor:pointer;
+}
+
+.fb-login-button{
+    background:#1877f2;
+    color:white;
+    cursor:pointer;
+    
+    vertical-align:middle;
+    margin-bottom:0 !important;
+}
+
+.fb-login-button svg{
+    width: 1.3em !important;
+    height: auto;
+    margin-right: 12px;
+    top: 3px;
+    position: relative;
+}
+
+.google {
+    display:flex;
+}
+
+.google button > div{
+    background:none !important;
+    width:40px;
+}
+
+.google button svg{
+    position: relative;
+    left: 13px;
+    top: 2px;
+}
+
+.google button {
+    background:#e1e1e1 !important;
+    box-shadow:none !important;
+    color:black !important;
+    cursor:pointer;
+}
+.google button span{
+    font-weight:bold !important;
+}
+
+input#email{
+    background:#e1e1e1;
+
+    height:46px;
+    width:275px;
+    border-radius:100px !important;
+    display:block;
+    border:0;
+    box-shadow:0;
+    line-height:46px;
+    overflow:hidden;
+    background:lightgray;
+    font-size:15px!important;
+    font-weight:bold !important;
+
+    padding:0 20px;
+    box-sizing:border-box;
+    margin:10px auto !important;
+}
+
+.terms{
+    width:280px;
+    margin:auto;
+}
+
+.terms a{
+    color:#1877f2;
+}
